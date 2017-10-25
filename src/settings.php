@@ -1,6 +1,11 @@
 <?php
 return [
     'settings' => [
+        'MYSQL_SERVER' => 'asabbourmysql.mysql.database.azure.com'
+        'MYSQL_USER' => 'azureuser@asabbourmysql'
+        'MYSQL_PASSWORD' => 'p@ssw0rd'
+        
+        
         'displayErrorDetails' => true, // set to false in production
         'addContentLengthHeader' => false, // Allow the web server to send the content-length header
 
